@@ -1,1 +1,1 @@
-# degen.github.io
+# degenplstoken.github.io
