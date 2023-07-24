@@ -1,0 +1,1 @@
+Degen: A deflationary memetoken
