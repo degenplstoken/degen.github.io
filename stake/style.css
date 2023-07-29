@@ -251,10 +251,10 @@ Version      : 1.1.9
 	border-radius: 16px;
 	background: #000000;
 	border: 1px solid rgba(0, 0, 0, 0.18);
-	border-bottom: 20px solid linear-gradient(45deg, violet 0%, hotpink 20%, violet 50%);
-	border-left: 5px solid #800080;
-	border-right: 5px solid #800080;
-	border-top: 5px solid #800080;
+	border-bottom: 20px solid #b63fbd;
+	border-left: 5px solid #b63fbd;
+	border-right: 5px solid #b63fbd;
+	border-top: 5px solid #b63fbd;
 	border-radius: 50px;
 }
 .card2 img{
@@ -272,10 +272,10 @@ Version      : 1.1.9
 	border-radius: 16px;
 	background: #000000;
 	border: 1px solid rgba(0, 0, 0, 0.18);
-	border-bottom: 5px solid #800080;
-	border-left: 5px solid #800080;
-	border-right: 5px solid #800080;
-	border-top: 20px solid #800080;
+	border-bottom: 5px solid #b63fbd;
+	border-left: 5px solid #b63fbd;
+	border-right: 5px solid #b63fbd;
+	border-top: 20px solid #b63fbd;
 	border-radius: 50px;
 	
 }
@@ -376,7 +376,7 @@ input[type="text"]{
 
 @font-face { 
 	font-family:Kanit;
-	src:url("fonts/Kanit.ttf");
+	src:url("https://app.howlfinance.com/fonts/Kanit.ttf");
   } 
   @import url("http://fonts.googleapis.com/css?family=Poppins%7CRoboto"); 
   * { 
@@ -514,7 +514,7 @@ input[type="text"]{
 	  background-color:  transparent; 
 	  border:  none; 
 	  border-radius:  .25rem;
-	  background-image: url('images/menu.png'); 
+	  background-image: url('https://app.howlfinance.com/images/menu.png'); 
 	  background-position-x: center; 
 	  background-position-y: center; 
 	  background-repeat: no-repeat; 
@@ -775,15 +775,15 @@ input[type="text"]{
   } 
   
   .top-menu a:hover  { 
-	  color: #800080;
+	  color: #b63fbd;
   } 
   
   .top-menu a.active  { 
-	  color: #800080;
+	  color: #b63fbd;
   } 
   
   .top-menu a:hover , .top-menu a.active  { 
-	  color: #800080;
+	  color: #b63fbd;
   } 
   
   .currency-icon { 
@@ -1304,7 +1304,7 @@ p.lead {
 	content: "";
 	display: block;
 	margin: 20px 0;
-	background: url("https://staking.shila.tech/images/other/line1.png") no-repeat 0 0;
+	background: url("https://staking.shila.tech/stake/images/other/line1.png") no-repeat 0 0;
 }
 
 .sec-title.text-center:after {
@@ -1312,7 +1312,7 @@ p.lead {
 	content: "";
 	display: block;
 	margin: 30px 0;
-	background: url("https://staking.shila.tech/images/other/line2.png") no-repeat 0 0;
+	background: url("https://staking.shila.tech/stake/images/other/line2.png") no-repeat 0 0;
 }
 
 .sec-title.text-center:after {
@@ -1441,14 +1441,14 @@ blockquote::before {
 }
 
 .stakingBg {
-	background-image:  url("https://staking.shila.tech/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/images/Backgrounds/bg.png"); 
+	background-image:  url("https://staking.shila.tech/stake/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/stake/images/Backgrounds/bg.png"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
 }
 .planet1 {
-	background: url('https://staking.shila.tech/images/Backgrounds/bg3_.png');
+	background: url('https://staking.shila.tech/stake/images/Backgrounds/bg3_.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1456,7 +1456,7 @@ blockquote::before {
 }
 
 .planet2 {
-	background: url('https://staking.shila.tech/images/Backgrounds/bg3_.png');
+	background: url('https://staking.shila.tech/stake/images/Backgrounds/bg3_.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1464,7 +1464,7 @@ blockquote::before {
 }
 
 .stars {
-	background: url('https://staking.shila.tech/images/Backgrounds/stars-div.png');
+	background: url('https://staking.shila.tech/stake/images/Backgrounds/stars-div.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1557,7 +1557,7 @@ header.light {
 
 @font-face { 
 	font-family:Kanit;
-	src:url("fonts/Kanit.ttf");
+	src:url("https://app.howlfinance.com/fonts/Kanit.ttf");
   } 
   @import url("https://fonts.googleapis.com/css?family=Poppins%7CRoboto"); 
   * { 
@@ -1839,7 +1839,7 @@ header.fixed {
 }
 
 .hero-left .hero-btns .btn2:before {
-	background: url("https://staking.shila.tech/images/arrow1.png");
+	background: url("https://staking.shila.tech/stake/images/arrow1.png");
 	width: 16px;
 	height: 21px;
 	display: inline-block;
@@ -2350,7 +2350,7 @@ header.fixed {
 	margin: auto;
 	height: 115px;
 	width: 199px;
-	background: url("https://staking.shila.tech/images/diamond-base.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/diamond-base.png") no-repeat scroll 0px 0px;
 	transform: translateX(-50%);
 }
 
@@ -2363,7 +2363,7 @@ header.fixed {
 	margin: auto;
 	height: 481px;
 	width: 685px;
-	background: url("https://staking.shila.tech/images/diamond-main.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/diamond-main.png") no-repeat scroll 0px 0px;
 	background-size: cover;
 	background-position: center;
 	animation: MainHight 2s linear;
@@ -2383,7 +2383,7 @@ header.fixed {
 .diamond-animation .main:before {
 	height: 271px;
 	width: 450px;
-	background: url("https://staking.shila.tech/images/diamond-top.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/diamond-top.png") no-repeat scroll 0px 0px;
 	background-size: cover;
 	background-position: center;
 	position: absolute;
@@ -2417,7 +2417,7 @@ header.fixed {
 
 .diamond-animation .base::before,
 .diamond-animation .base::after {
-	background: url("https://staking.shila.tech/images/diamond-base-1.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/diamond-base-1.png") no-repeat scroll 0px 0px;
 	content: '';
 	display: block;
 	position: absolute;
@@ -2453,7 +2453,7 @@ header.fixed {
 }
 
 .inside-bitcoin {
-	background: url("https://staking.shila.tech/images/bitcoin-inside.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/bitcoin-inside.png") no-repeat scroll 0px 0px;
 	background-size: cover;
 	background-position: center;
 	width: 133px;
@@ -2510,7 +2510,7 @@ header.fixed {
 .diamond-animation .lines span {
 	width: 2px;
 	height: 138px;
-	background: url("https://staking.shila.tech/images/diamond-top-lines.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/diamond-top-lines.png") no-repeat scroll 0px 0px;
 	position: absolute;
 	transition: all 2s ease;
 	transform: scaleY(0);
@@ -2659,7 +2659,7 @@ header.fixed {
 .top-coin {
 	width: 356px;
 	height: 239px;
-	background: url("https://staking.shila.tech/images/diamond-top-coin.png") no-repeat scroll center center;
+	background: url("https://staking.shila.tech/stake/images/diamond-top-coin.png") no-repeat scroll center center;
 	background-size: cover;
 	left: 0;
 	right: 0;
@@ -2692,7 +2692,7 @@ header.fixed {
 .diamond-grid {
 	width: 68px;
 	height: 111px;
-	background: url("https://staking.shila.tech/images/diamond-grid-1.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/diamond-grid-1.png") no-repeat scroll center center / cover;
 	-webkit-animation: bottomTotop 15s linear 0s infinite;
 	animation: bottomTotop 15s linear 0s infinite;
 	position: absolute;
@@ -2703,7 +2703,7 @@ header.fixed {
 .diamond-grid-2 {
 	width: 40px;
 	height: 65px;
-	background: url("https://staking.shila.tech/images/diamond-grid-1.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/diamond-grid-1.png") no-repeat scroll center center / cover;
 	-webkit-animation: bottomTotop 16s linear 0s infinite;
 	animation: bottomTotop 16s linear 0s infinite;
 	position: absolute;
@@ -2729,7 +2729,7 @@ header.fixed {
 }
 
 .outer-Orbit {
-	background: url("https://staking.shila.tech/images/diamond-top-ring.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/diamond-top-ring.png") no-repeat scroll center center / cover;
 	width: 0px;
 	height: 0px;
 	top: 0px;
@@ -2781,7 +2781,7 @@ header.fixed {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	background: url("https://staking.shila.tech/images/OrbitSquare.png") no-repeat scroll 0px 0px / cover;
+	background: url("https://staking.shila.tech/stake/images/OrbitSquare.png") no-repeat scroll 0px 0px / cover;
 	display: block;
 	-webkit-transform: scaleX(0.50);
 	font-size: 0;
@@ -2810,7 +2810,7 @@ header.fixed {
 .gris2 {
 	width: 25px;
 	height: 82px;
-	background: url("https://staking.shila.tech/images/diamond-grid-2.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/diamond-grid-2.png") no-repeat scroll center center / cover;
 	position: absolute;
 	left: 58%;
 	z-index: 0;
@@ -2825,7 +2825,7 @@ header.fixed {
 .square-1 {
 	width: 25px;
 	height: 26px;
-	background: url("https://staking.shila.tech/images/OrbitSquare.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/OrbitSquare.png") no-repeat scroll center center / cover;
 	position: absolute;
 	left: 63%;
 	z-index: 0;
@@ -2840,7 +2840,7 @@ header.fixed {
 }
 
 .page-header {
-	background: url("https://staking.shila.tech/images/page-header-bg.jpg") no-repeat scroll center / cover;
+	background: url("https://staking.shila.tech/stake/images/page-header-bg.jpg") no-repeat scroll center / cover;
 	position: relative;
 }
 
@@ -2886,12 +2886,12 @@ header.fixed {
 	height: 0px;
 	opacity: 0;
 	width: 390px;
-	background: url("https://staking.shila.tech/images/platinum-base.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/platinum-base.png") no-repeat scroll 0px 0px;
 	transform: translateX(-50%);
 }
 
 .platinum-animation .base:before {
-	background: url("https://staking.shila.tech/images/platinum-base-line.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/platinum-base-line.png") no-repeat scroll 0px 0px;
 	content: "";
 	position: absolute;
 	bottom: -77px;
@@ -2918,7 +2918,7 @@ header.fixed {
 	margin: auto;
 	height: 0px;
 	width: 0px;
-	background: url("https://staking.shila.tech/images/platinum-waves.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/platinum-waves.png") no-repeat scroll 0px 0px;
 	background-size: cover;
 	background-position: center;
 	z-index: 2;
@@ -2957,7 +2957,7 @@ header.fixed {
 	margin: auto;
 	height: 420px;
 	width: 420px;
-	background: url("https://staking.shila.tech/images/coin-bg-icon.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/coin-bg-icon.png") no-repeat scroll 0px 0px;
 	background-size: cover;
 	background-position: center;
 	z-index: 3;
@@ -2993,7 +2993,7 @@ header.fixed {
 .platinum-animation .coin-icon {
 	height: 140px;
 	width: 140px;
-	background: url("https://staking.shila.tech/images/gold-animation-icon.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/gold-animation-icon.png") no-repeat scroll 0px 0px;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transform: translate(-50%, -50%) scale(0);
@@ -3027,7 +3027,7 @@ header.fixed {
 .platinum-animation .lines span {
 	width: 4px;
 	height: 258px;
-	background: url("https://staking.shila.tech/images/platinum-top-lines.png") no-repeat scroll 0px 0px;
+	background: url("https://staking.shila.tech/stake/images/platinum-top-lines.png") no-repeat scroll 0px 0px;
 	position: absolute;
 	transition: all 2s ease;
 	transform: scaleY(0);
@@ -3086,7 +3086,7 @@ header.fixed {
 .platinum-move-1 {
 	width: 13px;
 	height: 119px;
-	background: url("https://staking.shila.tech/images/platinum-move-1.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/platinum-move-1.png") no-repeat scroll center center / cover;
 	-webkit-animation: bottomTotop 15s linear 0s infinite;
 	animation: bottomTotop 15s linear 0s infinite;
 	position: absolute;
@@ -3097,7 +3097,7 @@ header.fixed {
 .platinum-move-2 {
 	width: 13px;
 	height: 119px;
-	background: url("https://staking.shila.tech/images/platinum-move-1.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/platinum-move-1.png") no-repeat scroll center center / cover;
 	-webkit-animation: bottomTotop 18s linear 0s infinite;
 	animation: bottomTotop 18s linear 0s infinite;
 	position: absolute;
@@ -3108,7 +3108,7 @@ header.fixed {
 .platinum-move-3 {
 	width: 13px;
 	height: 119px;
-	background: url("https://staking.shila.tech/images/platinum-move-1.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/platinum-move-1.png") no-repeat scroll center center / cover;
 	-webkit-animation: bottomTotop 18s linear 0s infinite;
 	animation: bottomTotop 18s linear 0s infinite;
 	position: absolute;
@@ -3120,7 +3120,7 @@ header.fixed {
 .platinum-move-4 {
 	width: 52px;
 	height: 220px;
-	background: url("https://staking.shila.tech/images/platinum-move-2.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/platinum-move-2.png") no-repeat scroll center center / cover;
 	position: absolute;
 	right: 15px;
 	bottom: 160px;
@@ -3132,7 +3132,7 @@ header.fixed {
 .platinum-move-5 {
 	width: 40px;
 	height: 138px;
-	background: url("https://staking.shila.tech/images/platinum-move-3.png") no-repeat scroll center center / cover;
+	background: url("https://staking.shila.tech/stake/images/platinum-move-3.png") no-repeat scroll center center / cover;
 	position: absolute;
 	left: 25px;
 	bottom: 200px;
@@ -3170,7 +3170,7 @@ header.fixed {
 }
 
 .mercury-animation .number-one {
-	background: url('https://staking.shila.tech/images/mercury-numbers-1.png') no-repeat scroll 0 0;
+	background: url('https://staking.shila.tech/stake/images/mercury-numbers-1.png') no-repeat scroll 0 0;
 	height: 307px;
 	width: 139px;
 	position: absolute;
@@ -3180,7 +3180,7 @@ header.fixed {
 }
 
 .mercury-animation .number-two {
-	background: url('https://staking.shila.tech/images/mercury-numbers-1.png') no-repeat scroll 0 0;
+	background: url('https://staking.shila.tech/stake/images/mercury-numbers-1.png') no-repeat scroll 0 0;
 	height: 307px;
 	width: 139px;
 	position: absolute;
@@ -3239,7 +3239,7 @@ header.fixed {
 	/* This is going to be defined in the next step */
 	color: #000;
 	border-radius: 50%;
-	background: url("https://staking.shila.tech/images/mercury-earth-map.png") 0 0 repeat;
+	background: url("https://staking.shila.tech/stake/images/mercury-earth-map.png") 0 0 repeat;
 	background-size: 730px;
 	box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
 	transform-style: preserve-3d;
@@ -3249,7 +3249,7 @@ header.fixed {
 #earth-box {
 	width: 400px;
 	height: 400px;
-	background: url("https://staking.shila.tech/images/mercury-earth.png") 0 0 repeat;
+	background: url("https://staking.shila.tech/stake/images/mercury-earth.png") 0 0 repeat;
 	background-size: 100%;
 	border-radius: 50%;
 	margin: auto;
@@ -3272,7 +3272,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-1 {
-	background: url('https://staking.shila.tech/images/earth-icon-1.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-1.png') no-repeat scroll 0px 0px / cover;
 	width: 28px;
 	height: 47px;
 	position: absolute;
@@ -3283,7 +3283,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-2 {
-	background: url('https://staking.shila.tech/images/earth-icon-2.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-2.png') no-repeat scroll 0px 0px / cover;
 	width: 21px;
 	height: 52px;
 	position: absolute;
@@ -3294,7 +3294,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-3 {
-	background: url('https://staking.shila.tech/images/earth-icon-3.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-3.png') no-repeat scroll 0px 0px / cover;
 	width: 34px;
 	height: 35px;
 	position: absolute;
@@ -3305,7 +3305,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-4 {
-	background: url('https://staking.shila.tech/images/earth-icon-4.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-4.png') no-repeat scroll 0px 0px / cover;
 	width: 25px;
 	height: 33px;
 	position: absolute;
@@ -3316,7 +3316,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-5 {
-	background: url('https://staking.shila.tech/images/earth-icon-5.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-5.png') no-repeat scroll 0px 0px / cover;
 	width: 26px;
 	height: 33px;
 	position: absolute;
@@ -3327,7 +3327,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-6 {
-	background: url('https://staking.shila.tech/images/earth-icon-6.png') no-repeat scroll 0px 0px / cover;
+	background: url('https://staking.shila.tech/stake/images/earth-icon-6.png') no-repeat scroll 0px 0px / cover;
 	width: 16px;
 	height: 24px;
 	position: absolute;
@@ -3338,7 +3338,7 @@ header.fixed {
 }
 
 #earth-box-cover .earth-icons .icon-7 {
-	background: url('https://staking.shila.tech/images/gold-animation-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/gold-animation-icon.png') no-repeat scroll 0px 0px;
 	width: 60px;
 	height: 60px;
 	position: absolute;
@@ -3380,7 +3380,7 @@ header.fixed {
 #earth-box-cover:before {
 	width: 589px;
 	height: 589px;
-	background: url("https://staking.shila.tech/images/mercury-earth-cover.png") 0 0 repeat;
+	background: url("https://staking.shila.tech/stake/images/mercury-earth-cover.png") 0 0 repeat;
 	background-size: 100%;
 	border-radius: 50%;
 	content: "";
@@ -3679,7 +3679,7 @@ h2.section-heading span {
 }
 
 .diamond-icon:before {
-	background: url('https://staking.shila.tech/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
 	content: "";
 	height: 370px;
 	width: 370px;
@@ -3723,7 +3723,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-1 {
-	background: url('https://staking.shila.tech/images/coin-1.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-1.png') no-repeat scroll 0px 0px;
 	height: 47px;
 	width: 66px;
 	background-size: auto;
@@ -3735,7 +3735,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-2 {
-	background: url('https://staking.shila.tech/images/coin-2.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-2.png') no-repeat scroll 0px 0px;
 	height: 56px;
 	width: 64px;
 	background-size: auto;
@@ -3747,7 +3747,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-3 {
-	background: url('https://staking.shila.tech/images/coin-3.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-3.png') no-repeat scroll 0px 0px;
 	height: 56px;
 	width: 64px;
 	background-size: auto;
@@ -3759,7 +3759,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-4 {
-	background: url('https://staking.shila.tech/images/coin-4.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-4.png') no-repeat scroll 0px 0px;
 	height: 56px;
 	width: 80px;
 	background-size: auto;
@@ -3771,7 +3771,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-5 {
-	background: url('https://staking.shila.tech/images/coin-5.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-5.png') no-repeat scroll 0px 0px;
 	height: 56px;
 	width: 64px;
 	background-size: auto;
@@ -3783,7 +3783,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-6 {
-	background: url('https://staking.shila.tech/images/coin-6.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-6.png') no-repeat scroll 0px 0px;
 	height: 64px;
 	width: 56px;
 	background-size: auto;
@@ -3795,7 +3795,7 @@ h2.section-heading span {
 }
 
 .coin-animation .coin-7 {
-	background: url('https://staking.shila.tech/images/coin-7.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coin-7.png') no-repeat scroll 0px 0px;
 	height: 65px;
 	width: 56px;
 	background-size: auto;
@@ -3880,7 +3880,7 @@ h2.section-heading span {
 
 .our-mission-boxes {
 	margin: 0;
-	background-image:  url("https://staking.shila.tech/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/images/Backgrounds/bg.png"); 
+	background-image:  url("https://staking.shila.tech/stake/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/stake/images/Backgrounds/bg.png"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3943,7 +3943,7 @@ h2.section-heading span {
 }
 
 .our-mission.c-l {
-	background-image:  url("https://staking.shila.tech/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/images/Backgrounds/bg.png"); 
+	background-image:  url("https://staking.shila.tech/stake/images/Backgrounds/bg3_.png"), url("https://staking.shila.tech/stake/images/Backgrounds/bg.png"); 
 	background-size: cover;
 	background-position: center center;
 }
@@ -3957,7 +3957,7 @@ h2.section-heading span {
 07. BENEFIT SECTION
 *===================================*/
 .benefits {
-	background-image: url("https://staking.shila.tech/images/tr-circle-bg.png");
+	background-image: url("https://staking.shila.tech/stake/images/tr-circle-bg.png");
 	background-repeat: no-repeat;
 	background-color: #000000;
 	background-position: left center;
@@ -4845,7 +4845,7 @@ height: 95%;
 }
 
 .diamond-layout.token-sale {
-	background-image: url("https://staking.shila.tech/images/bg-2.jpg");
+	background-image: url("https://staking.shila.tech/stake/images/bg-2.jpg");
 	background-position: center bottom;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -5273,7 +5273,7 @@ ul.allocation-list li:nth-child(7):before {
 	width: 100%;
 	clear: both;
 	border-top: 5px solid #520d69;
-	background-image: url("https://staking.shila.tech/images/map-bg.png");
+	background-image: url("https://staking.shila.tech/stake/images/map-bg.png");
 	background-repeat: no-repeat;
 	background-color: #000000;
 	background-position: center;
@@ -5320,7 +5320,7 @@ ul.allocation-list li:nth-child(7):before {
 }
 
 .roadmap-slider:before {
-	background: url("https://staking.shila.tech/images/slider-line.png") no-repeat center;
+	background: url("https://staking.shila.tech/stake/images/slider-line.png") no-repeat center;
 	position: absolute;
 	width: 100%;
 	background-size: 100% 3px;
@@ -5924,7 +5924,7 @@ ul.allocation-list li:nth-child(7):before {
 }
 
 .mercury-roadmap .roadmap-item .roadmap-text:before {
-	background: url("https://staking.shila.tech/images/question-img.png") no-repeat scroll 0 0;
+	background: url("https://staking.shila.tech/stake/images/question-img.png") no-repeat scroll 0 0;
 	content: "";
 	position: absolute;
 	top: 0;
@@ -5936,7 +5936,7 @@ ul.allocation-list li:nth-child(7):before {
 }
 
 .mercury-roadmap .roadmap-item.even .roadmap-text::before {
-	background: url("https://staking.shila.tech/images/question-img-rev.png") no-repeat scroll 0 0;
+	background: url("https://staking.shila.tech/stake/images/question-img-rev.png") no-repeat scroll 0 0;
 	top: auto;
 	bottom: 0;
 }
@@ -6104,7 +6104,7 @@ ul.allocation-list li:nth-child(7):before {
 }
 
 .team-section.style-2:before {
-	background: url("https://staking.shila.tech/images/team-bg.jpg") no-repeat right top;
+	background: url("https://staking.shila.tech/stake/images/team-bg.jpg") no-repeat right top;
 	height: 100%;
 	content: "";
 	position: absolute;
@@ -6438,7 +6438,7 @@ video {
 }
 
 .diamond-layout.team-section:after {
-	background: url('https://staking.shila.tech/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
 	content: "";
 	height: 370px;
 	width: 370px;
@@ -6457,7 +6457,7 @@ video {
 }
 
 .team-minimal-section:after {
-	background: url('https://staking.shila.tech/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/coinpool-dots-circle.png') no-repeat scroll 0px 0px;
 	content: "";
 	height: 370px;
 	width: 370px;
@@ -7119,7 +7119,7 @@ video {
 }
 
 .call-to-action-section {
-	background: url("https://staking.shila.tech/images/bg-1.jpg") no-repeat scroll center;
+	background: url("https://staking.shila.tech/stake/images/bg-1.jpg") no-repeat scroll center;
 	background-size: cover;
 	color: #000000;
 }
@@ -7244,8 +7244,23 @@ video {
 /*===================================*
 13. FOOTER SECTION
 *===================================*/
+footer {
+	float: center;
+	width: 100%;
+	background: #000000;
+	padding: 90px 0 45px;
+	color: rgba(242, 242, 242, 0.6)
+}
 
+footer.footer-2 {
+	background: url("https://staking.shila.tech/stake/images/footer-2-bg.jpg") no-repeat scroll 0px 0px;
+	text-align: center;
+	background-size: cover;
+}
 
+footer .sec-title:after {
+	margin: 0px 0 0px;
+}
 
 footer .sec-title h4 {
 	font-weight: 700;
@@ -8033,7 +8048,7 @@ ul.horizontal-menu li a {
 	content: "";
 	display: block;
 	margin: 15px 0;
-	background: url("https://staking.shila.tech/images/line1.png") no-repeat 0 0;
+	background: url("https://staking.shila.tech/stake/images/line1.png") no-repeat 0 0;
 }
 
 .sidebar .widget {
@@ -8178,7 +8193,7 @@ ul.horizontal-menu li a {
 15. Milestone 
 *===================================*/
 .milestone-section {
-	background: url("https://staking.shila.tech/images/bg-1.jpg") no-repeat scroll center;
+	background: url("https://staking.shila.tech/stake/images/bg-1.jpg") no-repeat scroll center;
 	background-size: cover;
 }
 
@@ -8425,7 +8440,7 @@ ul.horizontal-menu li a {
 }
 
 .token-pricing-section:before {
-	background: url('https://staking.shila.tech/images/video-bg-1.jpg') no-repeat scroll center center;
+	background: url('https://staking.shila.tech/stake/images/video-bg-1.jpg') no-repeat scroll center center;
 	content: "";
 	height: 350px;
 	width: 100%;
@@ -8448,7 +8463,7 @@ ul.horizontal-menu li a {
 }
 
 /*.token-pricing-section .section-heading:before{
-	background:url('https://staking.shila.tech/images/live-price-wave.png') no-repeat scroll center right;
+	background:url('https://staking.shila.tech/stake/images/live-price-wave.png') no-repeat scroll center right;
 	content:"";
 	height:30px;
 	width:100%;
@@ -8618,31 +8633,31 @@ ul.horizontal-menu li a {
 }
 
 .your-name .form-field:before {
-	background: url('https://staking.shila.tech/images/user-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/user-icon.png') no-repeat scroll 0px 0px;
 	background-size: 100%;
 }
 
 .email-address .form-field:before {
-	background: url('https://staking.shila.tech/images/email-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/email-icon.png') no-repeat scroll 0px 0px;
 	background-size: 100%;
 	width: 22px;
 	top: 15px;
 }
 
 .phone-number .form-field:before {
-	background: url('https://staking.shila.tech/images/phone-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/phone-icon.png') no-repeat scroll 0px 0px;
 	background-size: 100%;
 	width: 22px;
 	top: 17px;
 }
 
 .company-name .form-field:before {
-	background: url('https://staking.shila.tech/images/company-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/company-icon.png') no-repeat scroll 0px 0px;
 	background-size: 100%;
 }
 
 .message .form-field:before {
-	background: url('https://staking.shila.tech/images/message-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/message-icon.png') no-repeat scroll 0px 0px;
 	background-size: 100%;
 	top: 22px;
 }
@@ -8714,12 +8729,12 @@ h4.widget-title {
 .exchange-list-section .heading {
 	color: #000000;
 	margin-right: 30px;
-	background: url('https://staking.shila.tech/images/exchange-list-icon-2.png') no-repeat scroll center right;
+	background: url('https://staking.shila.tech/stake/images/exchange-list-icon-2.png') no-repeat scroll center right;
 	position: relative;
 }
 
 .exchange-list-section .heading:before {
-	background: url('https://staking.shila.tech/images/exchange-list-icon.png') no-repeat scroll 0px 0px;
+	background: url('https://staking.shila.tech/stake/images/exchange-list-icon.png') no-repeat scroll 0px 0px;
 	height: 26px;
 	width: 60px;
 	content: "";
@@ -8845,7 +8860,7 @@ h4.widget-title {
 }
 
 .video-section .play-button a {
-	background: #500d67 url("https://staking.shila.tech/images/play-btn.png") no-repeat scroll 0px 0px;
+	background: #500d67 url("https://staking.shila.tech/stake/images/play-btn.png") no-repeat scroll 0px 0px;
 	height: 150px;
 	width: 150px;
 	display: block;
@@ -8860,7 +8875,7 @@ h4.widget-title {
 }
 
 .video-section.pause-video .play-button a {
-	background-image: url("https://staking.shila.tech/images/pause-btn.png");
+	background-image: url("https://staking.shila.tech/stake/images/pause-btn.png");
 }
 
 .video-section .play-button a:hover {
@@ -8877,7 +8892,7 @@ h4.widget-title {
 19. Currency calculator
 *===================================*/
 .currency-calculator {
-	background: url('https://staking.shila.tech/images/Backgrounds/BG.png') no-repeat scroll left center;
+	background: url('https://staking.shila.tech/stake/images/Backgrounds/BG.png') no-repeat scroll left center;
 	background-size: cover;
 }
 
@@ -8910,7 +8925,7 @@ h4.widget-title {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	line-height: 1 !important;
-	background: url('https://staking.shila.tech/images/down-arrow.png') no-repeat scroll right 15px center !important;
+	background: url('https://staking.shila.tech/stake/images/down-arrow.png') no-repeat scroll right 15px center !important;
 }
 
 /*===================================*
@@ -8921,7 +8936,7 @@ h4.widget-title {
 }
 
 .featured-product-sec:before {
-	background: url('https://staking.shila.tech/images/bg-5.png') no-repeat scroll 0 0;
+	background: url('https://staking.shila.tech/stake/images/bg-5.png') no-repeat scroll 0 0;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -8931,7 +8946,7 @@ h4.widget-title {
 }
 
 .featured-product-sec:after {
-	background: url('https://staking.shila.tech/images/bg-4.png') no-repeat scroll bottom right;
+	background: url('https://staking.shila.tech/stake/images/bg-4.png') no-repeat scroll bottom right;
 	position: absolute;
 	top: 0;
 	right: 0;
